@@ -42,9 +42,9 @@
 &nbsp;
 ***
 ## **🔥Netlify Live Link🔥**
-- [Digital Marketing Homepage]()
+- [Digital Marketing Homepage](https://live-proj-4-fullstackjsbootcamp.netlify.app/)
 
 &nbsp;
 ***
 ## **📷 Post Designing Screenshot 📷**
-![]()
+![](https://github.com/manikD1/Live-Project-4-Digital-Marketing-Homepage/blob/main/Actual-Screenshot.JPG)
