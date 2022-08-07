@@ -88,3 +88,172 @@ div.button-group .nav-button{
     margin-bottom: 90px;
 }
 
+
+/* Mobile Responsiveness */
+
+@media (max-width: 1800px){
+
+    .navbar-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list{
+        position: static;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1em;
+    }
+
+    .list-item{
+        margin: 0 20px;
+    }
+
+    div.button-group .nav-button{
+        position: static;
+    }
+
+    .banner-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+
+@media (max-width: 1380px){
+
+    .navbar-container{
+        flex-direction: column;
+    }
+
+    .list{
+        margin: 2em 0;
+    }
+
+    .list-item{
+        margin: 0 20px;
+    }
+
+    div.button-group .nav-button{
+        position: static;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .navbar-container img{
+        height: 3em;
+    }
+
+    .banner-container div img{
+        position: static; 
+        width: 600px;       
+    }
+
+    .banner-container>div{
+        align-items: center; 
+        text-align: center;
+    }
+
+    .heading-text{
+        font-size: 3em;
+    }
+
+    .description{
+        font-size: 1em;
+    }
+
+    body{
+        padding: 50px 0;
+    }
+
+}
+
+@media (max-width: 650px){
+
+    .list{
+        margin: 2em 0;
+    }
+
+    .list-item{
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+
+
+    .navbar-container img{
+        height: 2em;
+    }
+
+    .banner-container div img{
+        position: static; 
+        width: 400px;       
+    }
+
+
+    .heading-text{
+        font-size: 2em;
+    }
+
+    .description{
+        font-size: 0.8em;
+        width: 300px;
+    }
+
+    div.button-group .nav-button{
+        font-size: 0.8em;
+    }
+
+    .nav-button.btn{
+        font-size: 0.8em;
+    }
+
+}
+
+@media (max-width: 450px){
+
+    .list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .list-item{
+        margin: 1em 0;
+    }
+
+    .banner-container div img{
+        width: 250px;       
+    }
+
+
+    .heading-text{
+        font-size: 1.5em;
+        width: 250px;
+    }
+
+    .description{
+        font-size: 0.8em;
+        width: 200px;
+    }
+
+    div.button-group .nav-button{
+        font-size: 0.8em;
+    }
+
+    .nav-button.btn{
+        font-size: 0.8em;
+    }
+
+    .banner-container>div{ 
+        width: 280px;
+    }
+
+}
